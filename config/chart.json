@@ -1,0 +1,6 @@
+{
+  "type": "radar",
+  "maintainAspectRatio": true,
+  "responsive": true,
+  "responsiveAnimationDuration": 0
+}
