@@ -26,28 +26,6 @@
 <body>
   <canvas id="chart" width="600" height="400"></canvas>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-  <script type="module">
-    import chartConfig from './config/chart.json' assert {type: 'json'};
-    import colors from './config/colors.json' assert {type: 'json'};
-    import chartDataSetsRaw from './data/dataSets.json' assert {type: 'json'};
-    import chartLabels from './data/labels.json' assert {type: 'json'};
-
-    const chartCanvas = document.getElementById("chart");
-    const chartDataSets = chartDataSetsRaw.map((set, index) => {
-      set.borderColor = colors[index % colors.length];
-      set.fill = false;
-      return set;
-    });
-
-    const chartData = {
-      labels: chartLabels,
-      datasets: chartDataSets,
-    };
-
-    const chart = new Chart(chartCanvas, {
-      ...chartConfig,
-      data: chartData,
-    });
-  </script>
+  <script src="/js/culturemap.js" type="module"></script>
 </body>
 </html>
