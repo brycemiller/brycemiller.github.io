@@ -1,18 +1,18 @@
 [
   {
-    "label": "Student A",
-    "data": [65, 75, 70, 80, 60, 80]
+    "label": "Norway",
+    "data": [3, 3, 5, 1, 2, 2, 5, 2]
   },
   {
-    "label": "Student B",
-    "data": [54, 65, 60, 70, 70, 75]
+    "label": "France",
+    "data": [6, 2, 1, 5, 6, 5, 2, 5]
   },
   {
-    "label": "Student C",
-    "data": [25, 35, 30, 40, 20, 40]
+    "label": "China",
+    "data": [7, 6, 0, 7, 7, 7, 7, 7]
   },
   {
-    "label": "Student D",
-    "data": [74, 85, 80, 90, 90, 95]
+    "label": "US",
+    "data": [1, 4, 8, 4, 5, 1, 4, 3]
   }
 ]
